@@ -2,7 +2,7 @@ package electrosoft.tech.lib;
 public class QuickSort{
 
     public static void main(String []args){
-        int[] intArray={20,35,-15,7,1,-22};
+        int[] intArray={20,35,-15,7,1,-22,2,99,4,1,88,44,11,12,15};
 
         quickSort(intArray,0,intArray.length);
         for (int i=0; i<intArray.length; i++){

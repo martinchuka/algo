@@ -35,9 +35,6 @@ class IntegerMultiplication {
         for (int i = m - 1; i >= 0; i--) {
             for (int j = n - 1; j >= 0; j--) {
                 int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
-/*
-                System.out.println(mul+"");
-*/
                 int p1 = i + j, p2 = i + j + 1;
                 int sum = mul + pos[p2];
 
